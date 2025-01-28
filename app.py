@@ -132,5 +132,5 @@ def process_stage():
         return jsonify({"error": "Внутренняя ошибка сервера."}), 500
 
 
-# if __name__ == "__main__":  # Закоментировать перед развёртыванием на сайте.
-#     app.run(debug=True)
+if __name__ == "__main__":  # Закоментировать перед развёртыванием на сайте.
+    app.run(debug=True)
